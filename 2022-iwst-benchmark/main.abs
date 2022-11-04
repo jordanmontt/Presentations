@@ -1,0 +1,9 @@
+As many other modern programming languages, Pharo spreads its applications into computationally demanding fields such as machine learning, big data, cryptocurrency, etc.
+This raises a need for fast numerical computation libraries.
+In this work, we propose to speed up the low-level computations by calling the routines from highly optimized external libraries, \eg LAPACK or BLAS through the foreign function interface (FFI).
+As a proof of concept, we build a prototype implementation of linear regression based on the DGELSD routine of LAPACK.
+Using three benchmark datasets of different sizes, we compare the execution time of our algorithm agains pure Pharo implementation and scikit-learn --- a popular Python library for machine learning.
+We show that LAPACK\&Pharo is up to 2103 times faster than pure Pharo.
+We also show that scikit-learn is 8-5 times faster than our prototype, depending on the size of the data.
+Finally, we demonstrate that pure Pharo is up to 15 times faster than the equivalent implementation in pure Python.
+Those findings can lay the foundation for the future work in building fast numerical libraries for Pharo and further using them in higher-level libraries such as pharo-ai.

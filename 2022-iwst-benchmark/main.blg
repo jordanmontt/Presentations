@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: elsarticle-num-names.bst
+Database file #1: rmod.bib
+Database file #2: others.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty pages in Oliv21a
+You've used 15 entries,
+            2918 wiz_defined-function locations,
+            727 strings with 8260 characters,
+and the built_in function-call counts, 10488 in all, are:
+= -- 665
+> -- 544
+< -- 7
++ -- 212
+- -- 189
+* -- 1234
+:= -- 1512
+add.period$ -- 19
+call.type$ -- 15
+change.case$ -- 131
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 776
+empty$ -- 757
+format.name$ -- 226
+if$ -- 1920
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 160
+newline$ -- 76
+num.names$ -- 60
+pop$ -- 317
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 210
+stack$ -- 0
+substring$ -- 338
+swap$ -- 562
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 1
+while$ -- 59
+width$ -- 0
+write$ -- 204
+(There was 1 warning)

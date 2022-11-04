@@ -1,0 +1,137 @@
+\begin{thebibliography}{15}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Black et~al.(2009)Black, Ducasse, Nierstrasz, Pollet, Cassou, and
+  Denker}]{Blac09a}
+\bibinfo{author}{A.~P. Black}, \bibinfo{author}{S.~Ducasse},
+  \bibinfo{author}{O.~Nierstrasz}, \bibinfo{author}{D.~Pollet},
+  \bibinfo{author}{D.~Cassou}, \bibinfo{author}{M.~Denker},
+  \bibinfo{title}{Pharo by Example}, \bibinfo{publisher}{Square Bracket
+  Associates}, \bibinfo{address}{Kehrsatz, Switzerland}, \bibinfo{year}{2009}.
+  \URLprefix \url{http://books.pharo.org}.
+%Type = Article
+\bibitem[{Marra et~al.(2020)Marra, Polito, and {Gonzalez Boix}}]{Marr20a}
+\bibinfo{author}{M.~Marra}, \bibinfo{author}{G.~Polito},
+  \bibinfo{author}{E.~{Gonzalez Boix}},
+\newblock \bibinfo{title}{A debugging approach for live big data applications},
+\newblock \bibinfo{journal}{Science of Computer Programming}
+  \bibinfo{volume}{194} (\bibinfo{year}{2020}) \bibinfo{pages}{102460}.
+  \DOIprefix\doi{10.1016/j.scico.2020.102460}.
+%Type = Phdthesis
+\bibitem[{Marra(2022)}]{Marr22a}
+\bibinfo{author}{M.~Marra}, \bibinfo{title}{A Live Debugging Approach for Big
+  Data Processing Applications}, Ph.D. thesis, Vrije Universiteit Brussel,
+  \bibinfo{year}{2022}.
+%Type = Book
+\bibitem[{Bergel(2020)}]{Berg20a}
+\bibinfo{author}{A.~Bergel}, \bibinfo{title}{Agile Artificial Intelligence in
+  Pharo}, \bibinfo{publisher}{Apress}, \bibinfo{year}{2020}.
+%Type = Incollection
+\bibitem[{Oliveira et~al.(2021)Oliveira, Costiou, Ducasse, and
+  Stinckwich}]{Oliv21a}
+\bibinfo{author}{A.~Oliveira}, \bibinfo{author}{S.~Costiou},
+  \bibinfo{author}{S.~Ducasse}, \bibinfo{author}{S.~Stinckwich},
+\newblock \bibinfo{title}{A pharothings tutorial},
+\newblock in: \bibinfo{booktitle}{A PharoThings Tutorial},
+  \bibinfo{publisher}{Square Bracket Associates}, \bibinfo{year}{2021}.
+  \URLprefix
+  \url{https://github.com/SquareBracketAssociates/Booklet-APharoThingsTutorial}.
+%Type = Book
+\bibitem[{G{\'e}ron(2019)}]{Gero19a}
+\bibinfo{author}{A.~G{\'e}ron}, \bibinfo{title}{Hands-on machine learning with
+  Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build
+  intelligent systems}, \bibinfo{publisher}{" O'Reilly Media, Inc."},
+  \bibinfo{year}{2019}.
+%Type = Booklet
+\bibitem[{Polito et~al.(2020)Polito, Ducasse, Tesone, and Brunzie}]{Poli20z}
+\bibinfo{author}{G.~Polito}, \bibinfo{author}{S.~Ducasse},
+  \bibinfo{author}{P.~Tesone}, \bibinfo{author}{T.~Brunzie},
+  \bibinfo{title}{Unified ffi - calling foreign functions from pharo},
+  \bibinfo{year}{2020}. \URLprefix \url{http://books.pharo.org/booklet-uffi/}.
+%Type = Book
+\bibitem[{Wohlin et~al.(2000)Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell, and
+  Wessl\'{e}n}]{Wohl00a}
+\bibinfo{author}{C.~Wohlin}, \bibinfo{author}{P.~Runeson},
+  \bibinfo{author}{M.~H\"{o}st}, \bibinfo{author}{M.~C. Ohlsson},
+  \bibinfo{author}{B.~Regnell}, \bibinfo{author}{A.~Wessl\'{e}n},
+  \bibinfo{title}{Experimentation in software engineering: an introduction},
+  \bibinfo{publisher}{Kluwer Academic Publishers}, \bibinfo{address}{Norwell,
+  MA, USA}, \bibinfo{year}{2000}.
+%Type = Book
+\bibitem[{Besset(2016)}]{Bess16a}
+\bibinfo{author}{D.~H. Besset}, \bibinfo{title}{Object-Oriented Implementation
+  of Numerical Methods An Introduction with Pharo}, \bibinfo{publisher}{Square
+  Bracket Associates}, \bibinfo{year}{2016}.
+%Type = Inproceedings
+\bibitem[{Bergel et~al.(2018)Bergel, Melatagia, and Stinckwich}]{Berg18b}
+\bibinfo{author}{A.~Bergel}, \bibinfo{author}{P.~Melatagia},
+  \bibinfo{author}{S.~Stinckwich},
+\newblock \bibinfo{title}{An api and visual environment to use neural network
+  to reason about source code},
+\newblock in: \bibinfo{booktitle}{Conference Companion of the 2nd International
+  Conference on Art, Science, and Engineering of Programming},
+  \bibinfo{year}{2018}, pp. \bibinfo{pages}{117--120}.
+%Type = Inproceedings
+\bibitem[{Cota~Vidaure et~al.(2020)Cota~Vidaure, Cusi~Lopez, Sandoval~Alcocer,
+  and Bergel}]{Cota20a}
+\bibinfo{author}{A.~Cota~Vidaure}, \bibinfo{author}{E.~Cusi~Lopez},
+  \bibinfo{author}{J.~P. Sandoval~Alcocer}, \bibinfo{author}{A.~Bergel},
+\newblock \bibinfo{title}{Testevoviz: Visual introspection for
+  genetically-based test coverage evolution.},
+\newblock in: \bibinfo{booktitle}{VISSOFT}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{1--11}.
+%Type = Incollection
+\bibitem[{Bommel et~al.(2016)Bommel, Becu, Le~Page, and Bousquet}]{Bomm16a}
+\bibinfo{author}{P.~Bommel}, \bibinfo{author}{N.~Becu},
+  \bibinfo{author}{C.~Le~Page}, \bibinfo{author}{F.~Bousquet},
+\newblock \bibinfo{title}{Cormas: an agent-based simulation platform for
+  coupling human decisions with computerized dynamics},
+\newblock in: \bibinfo{booktitle}{Simulation and gaming in the network
+  society}, \bibinfo{publisher}{Springer}, \bibinfo{year}{2016}, pp.
+  \bibinfo{pages}{387--410}.
+%Type = Article
+\bibitem[{Le~Page et~al.(2012)Le~Page, Becu, Bommel, and Bousquet}]{Lepa12a}
+\bibinfo{author}{C.~Le~Page}, \bibinfo{author}{N.~Becu},
+  \bibinfo{author}{P.~Bommel}, \bibinfo{author}{F.~Bousquet},
+\newblock \bibinfo{title}{Participatory agent-based simulation for renewable
+  resource management: the role of the cormas simulation platform to nurture a
+  community of practice},
+\newblock \bibinfo{journal}{Journal of Artificial Societies and Social
+  Simulation} \bibinfo{volume}{15(1)} (\bibinfo{year}{2012})
+  \bibinfo{pages}{16}.
+%Type = Article
+\bibitem[{Lang et~al.(2019)Lang, Binder, Richter, Schratz, Pfisterer, Coors,
+  Au, Casalicchio, Kotthoff, and Bischl}]{Lang19a}
+\bibinfo{author}{M.~Lang}, \bibinfo{author}{M.~Binder},
+  \bibinfo{author}{J.~Richter}, \bibinfo{author}{P.~Schratz},
+  \bibinfo{author}{F.~Pfisterer}, \bibinfo{author}{S.~Coors},
+  \bibinfo{author}{Q.~Au}, \bibinfo{author}{G.~Casalicchio},
+  \bibinfo{author}{L.~Kotthoff}, \bibinfo{author}{B.~Bischl},
+\newblock \bibinfo{title}{mlr3: A modern object-oriented machine learning
+  framework in r},
+\newblock \bibinfo{journal}{Journal of Open Source Software}
+  \bibinfo{volume}{4} (\bibinfo{year}{2019}) \bibinfo{pages}{1903}.
+%Type = Article
+\bibitem[{Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg et~al.}]{Pedr11a}
+\bibinfo{author}{F.~Pedregosa}, \bibinfo{author}{G.~Varoquaux},
+  \bibinfo{author}{A.~Gramfort}, \bibinfo{author}{V.~Michel},
+  \bibinfo{author}{B.~Thirion}, \bibinfo{author}{O.~Grisel},
+  \bibinfo{author}{M.~Blondel}, \bibinfo{author}{P.~Prettenhofer},
+  \bibinfo{author}{R.~Weiss}, \bibinfo{author}{V.~Dubourg}, et~al.,
+\newblock \bibinfo{title}{Scikit-learn: Machine learning in python},
+\newblock \bibinfo{journal}{the Journal of machine Learning research}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}) \bibinfo{pages}{2825--2830}.
+
+\end{thebibliography}

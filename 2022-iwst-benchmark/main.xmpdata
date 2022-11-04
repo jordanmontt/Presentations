@@ -1,0 +1,8 @@
+\Title{How Fast is AI in Pharo?\\Benchmarking Linear Regression}
+\Author{Oleksandr Zaitsev\sep Sebastian Jordan-Montaño\sep Stéphane Ducasse}
+\Keywords{pharo \sep benchmarking \sep machine learning \sep foreign function interface \sep lapack \sep linear regression}
+\Subject{CEUR Workshop Proceedings (CEUR-WS.org)}
+\Copyright{\copyright\ 2022\ Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).}
+\CopyrightURL{https://creativecommons.org/licenses/by/4.0}
+\Journaltitle{CEUR Workshop Proceedings}
+\Journalnumber{1613-0073}
